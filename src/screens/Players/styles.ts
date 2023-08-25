@@ -1,4 +1,4 @@
-import { SafeAreaView } from "react-native";
+import { SafeAreaView } from 'react-native-safe-area-context'
 import styled, { css } from "styled-components/native";
 
 export const Container = styled(SafeAreaView)`
@@ -11,7 +11,7 @@ export const Container = styled(SafeAreaView)`
 export const Form = styled.View`
   width: 100%;
   background-color: ${({ theme }) => theme.COLORS.GRAY_700};
-
+  
   flex-direction: row;
   justify-content: center;
 
